@@ -1,12 +1,12 @@
 // src/server.js
 const path = require("path");
-require('dotenv').config({ path: path.join(__dirname, '../app_config/.env') })
+// require('dotenv').config({ path: path.join(__dirname, '../app_config/.env') })
 const express = require("express");
 const mysql = require("mysql");
 const { body, validationResult } = require("express-validator");
 const helmet = require("helmet");
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 3000;
 
 // Create a MySQL database connection using environment variables
 const db = mysql.createConnection({
