@@ -11,11 +11,15 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.19.2",
-    "mysql": "^2.18.1",
+    "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
-    "helmet": "^7.1.0",
+    "express": "^4.19.2",
     "express-validator": "^7.0.1",
-    "body-parser": "^1.20.2"
-  }  
+    "helmet": "^7.1.0",
+    "mysql": "^2.18.1",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3"
+  }
 }
