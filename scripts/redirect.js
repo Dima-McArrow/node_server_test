@@ -1,4 +1,4 @@
 // redirect.js
 // alert('Message submitted successfully!');
-window.location.replace = "/ok.html";
+window.location.href = "/ok.html";
 
